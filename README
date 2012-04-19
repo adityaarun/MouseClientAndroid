@@ -1,0 +1,21 @@
+README
+===================================================
+This is the application for communicating with the
+server running on the phone to get the touch coordinates 
+and move the mouse accordingly.
+
+This is primarily meant for communicating over
+USB via ADB Port forwarding that is why it is
+only client and not the server.
+
+Before executing
+adb forward tcp:10911 tcp:10911
+and start the server on the Android phone for this 
+client to communicate
+
+It is programmed to communicate over port no 10911
+
+Aditya Arun
+IIIrd Year 
+B.E. Computer Science and Engineering
+MIT Manipal
